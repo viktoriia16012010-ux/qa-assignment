@@ -1,0 +1,53 @@
+Test Plan for “StudyBuddy App”
+
+1. Introduction
+The purpose of this test plan is to verify the functionality and usability of the “StudyBuddy” app — a mobile application designed to help students organize study sessions, set reminders, and track progress.
+
+2. Objectives
+- Ensure that all core app features work correctly.
+- Identify and document any defects before release.
+- Verify usability and performance across different devices.
+
+3. Scope
+Testing will include:
+- User registration and login.
+- Creating and editing study tasks.
+- Setting reminders and notifications.
+- Progress tracking dashboard.
+- Logout functionality.
+
+Out of scope: Integration with third-party cloud storage.
+
+4. Test Strategy
+- Testing Type: Manual testing.
+- Test Levels: Unit, Integration, and System Testing.
+- Environment: Android 13, iOS 17, Chrome browser (web version).
+- Tools: JIRA for defect tracking, Google Sheets for test case documentation.
+
+5. Test Schedule
+| Phase | Activity | Date |
+|-------|-----------|------|
+| 1 | Test case creation | Nov 8, 2025 |
+| 2 | Test execution | Nov 9–11, 2025 |
+| 3 | Defect reporting & retesting | Nov 12–13, 2025 |
+| 4 | Final review | Nov 14, 2025 |
+
+6. Roles and Responsibilities
+- QA Engineer (Viktoriia Sadovnikova): Prepare and execute test cases, log defects in JIRA.
+- Developer: Fix reported bugs and perform code updates.
+- Project Manager: Review reports and approve final release.
+
+7. Test Deliverables
+- Test cases document
+- Bug reports in JIRA
+- Test summary report
+
+8. Risks and Mitigation
+| Risk | Impact | Mitigation |
+|------|---------|------------|
+| Tight testing timeline | High | Prioritize critical test cases |
+| Environment setup issues | Medium | Use emulators and cloud test devices |
+
+9. Approval
+Prepared by: Viktoriia Sadovnikova
+Date: November 7, 2025
